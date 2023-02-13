@@ -16,6 +16,7 @@
 		7EB908E9299A941E00063D55 /* IntroduceFamilyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EB908E8299A941E00063D55 /* IntroduceFamilyTests.swift */; };
 		7EB908F3299A941E00063D55 /* IntroduceFamilyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EB908F2299A941E00063D55 /* IntroduceFamilyUITests.swift */; };
 		7EB908F5299A941E00063D55 /* IntroduceFamilyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EB908F4299A941E00063D55 /* IntroduceFamilyUITestsLaunchTests.swift */; };
+		7EB90902299A96C200063D55 /* DetailViewer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EB90901299A96C200063D55 /* DetailViewer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		7EB908EE299A941E00063D55 /* IntroduceFamilyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IntroduceFamilyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7EB908F2299A941E00063D55 /* IntroduceFamilyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroduceFamilyUITests.swift; sourceTree = "<group>"; };
 		7EB908F4299A941E00063D55 /* IntroduceFamilyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroduceFamilyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		7EB90901299A96C200063D55 /* DetailViewer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 		7EB908C5299A941C00063D55 = {
 			isa = PBXGroup;
 			children = (
+				7EB90901299A96C200063D55 /* DetailViewer.swift */,
 				7EB908D0299A941C00063D55 /* IntroduceFamily */,
 				7EB908E7299A941E00063D55 /* IntroduceFamilyTests */,
 				7EB908F1299A941E00063D55 /* IntroduceFamilyUITests */,
@@ -260,6 +263,7 @@
 			files = (
 				7EB908D6299A941D00063D55 /* ViewController.swift in Sources */,
 				7EB908D2299A941D00063D55 /* AppDelegate.swift in Sources */,
+				7EB90902299A96C200063D55 /* DetailViewer.swift in Sources */,
 				7EB908D4299A941D00063D55 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
